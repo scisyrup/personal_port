@@ -23,13 +23,12 @@ body {
   font-family: "Elms Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.25;
+  line-height: 1.6;
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 3rem 1.5rem 8rem;
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: 3rem;
@@ -38,12 +37,9 @@ body {
 /*Nav bar spacing + fix*/
 header {
   position: sticky;
-  top: 0;
+  top: 3rem;
   align-self: start;
-  height: 100vh;
   background: var(--bg);
-  border-right: 1px solid var(--line);
-  padding-top: 3rem;
   /*padding: 1rem 0;
   margin-bottom: 2.5rem;/* test these*/
 }
@@ -72,8 +68,17 @@ nav a.active { color: var(--accent);
 }
 
 main {
-  padding-top: 4rem;
-  padding-bottom: 10rem;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: -1.5rem;
+  bottom: -1.5rem;
+  width: 1px;
+  background: var(--line);
 }
 
 /*mobile integration*/
@@ -81,12 +86,10 @@ main {
   body {
     grid-template-columns: 1fr;
     gap: 1rem;
+    padding-top: 2rem;
   }
   header {
     position: static;
-    height: auto;
-    padding-top: 2rem;
-    border-right: none;
     border-bottom: 1px solid var(--line);
     padding-bottom: 1rem;
   }
@@ -97,7 +100,7 @@ main {
     gap: 1.25rem;
     padding-right: 0;
   }
-  main { padding-top: 1.5rem; }
+  main::before { display: none; }
 }
 
 @view-transition {
@@ -139,11 +142,6 @@ main {
   ::view-transition-new(root) {
     animation: none;
   }
-}
-
-.wavy-text span {
-  display: inline-block;
-  animation: wave 2s ease-in-out infinite;
 }
 
 .wavy-text > span {
