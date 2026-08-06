@@ -59,8 +59,8 @@ nav a.active { color: var(--accent);
 }
 
 main {
-  padding-top: 3rem;
-  padding-bottom: 300rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
 }
 
 /*mobile integration*/
