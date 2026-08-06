@@ -5,7 +5,15 @@ Shoutout to 247T, A.J., Legion, and The Soft Flyers
 
 CHANGELOG:
 =======================================
+08/06/2026
+-Fixed <main> and <nav> height misalignment bug
+-Reduced wave animation in homepage
+-Shortened spammy noob code
+-Added accessibility features for mobile
+-Reduced loading times for placeholder images
+=======================================
 08/05/2026
+-Fixed bugs
 -Removed Contact Page
     -Plans to relocate to navbar
 -Second, third, and fourth commits
