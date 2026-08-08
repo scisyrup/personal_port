@@ -8,8 +8,8 @@ CHANGELOG:
 -
 =======================================
 08/08/2026
--Reformatted "projects" folder to portfolio
--Changed formatting of blog into MPA
+-Reformatted "projects" to portfolio and "blog" to MPA
+-Started rebuilding to Astro framework (initally no framework)
 -Commit ⁶🤷⁷
 =======================================
 08/06/2026
