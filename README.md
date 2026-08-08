@@ -10,7 +10,7 @@ CHANGELOG:
 08/08/2026
 -Reformatted "projects" folder to portfolio
 -Changed formatting of blog into MPA
--
+-Commit ⁶🤷⁷
 =======================================
 08/06/2026
 -Fixed <main> and <nav> height misalignment bug
