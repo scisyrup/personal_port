@@ -5,6 +5,13 @@ Shoutout to 247T, A.J., Legion, and The Soft Flyers
 
 CHANGELOG:
 =======================================
+-
+=======================================
+08/08/2026
+-Reformatted "projects" folder to portfolio
+-Changed formatting of blog into MPA
+-
+=======================================
 08/06/2026
 -Fixed <main> and <nav> height misalignment bug
 -Reduced wave animation in homepage

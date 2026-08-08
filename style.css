@@ -74,14 +74,23 @@ main::before {
   content: "";
   position: absolute;
   left: -2rem;
-  top: 0rem;
-  bottom: 0rem;
+  top: -.5rem;
+  bottom: -.5rem;
   width: 1px;
   background: var(--line);
 }
 
 main > *:first-child { margin-top: 0; }
 main > *:last-child  { margin-bottom: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
 
 /*mobile integration*/
 @media (max-width: 640px) {
